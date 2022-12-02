@@ -103,7 +103,7 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  chinese: https://ineednzt.github.io/zh || fa fa-language
+  中文: https://ineednzt.github.io/zh || fa fa-language
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
