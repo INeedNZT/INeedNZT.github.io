@@ -3,12 +3,47 @@
   <entry>
     <title>A New Start</title>
     <url>/2022/12/01/A-New-Start/</url>
-    <content><![CDATA[<p><img src="/2022/12/01/A-New-Start/screenshot.png"></p>
-]]></content>
+    <content><![CDATA[<h3 id="The-very-first-need"><a href="#The-very-first-need" class="headerlink" title="The very first need"></a>The very first need</h3><p>I started building this blog site because my coursework required an online profile for career planning presentations. The truth is I have wanted to build a personal station for a long time, and this assignment just gave me a good motivation to start. </p>
+<h3 id="Why-choose-Hexo"><a href="#Why-choose-Hexo" class="headerlink" title="Why choose Hexo?"></a>Why choose Hexo?</h3><p>To be honest, I did not know what to build with, there were so many options to choose from. I browsed many forums and many people recommended this framework because it is used by <mark>a large population</mark> and I am familiar with <mark>nodejs</mark>. So I chose this framework, even if there are problems in the future, I should be able to find a solution quickly.</p>
+<h3 id="Get-started"><a href="#Get-started" class="headerlink" title="Get started"></a>Get started</h3><p>According to the official tutorial, I first installed the global hexo-cli.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>Then it was time to initialize the project.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>Imported the very popular theme <mark><strong>NexT</strong></mark> into my project.</p>
+<figure class="highlight yml"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+
+<p>Then it was time for the various configuration files.</p>
+<img src="/2022/12/01/A-New-Start/configs.png" class="" width="600">
+
+<p>For easy-configuration purposes, I made a copy of the full configuration file from <code>node_modules</code>.</p>
+<h3 id="Setup-Github-pages"><a href="#Setup-Github-pages" class="headerlink" title="Setup Github pages"></a>Setup Github pages</h3><p>This step is relatively simple, I just need to configure the <strong><code>pages</code></strong> in <strong><code>settings</code></strong> to publish the project to the github space. Hexo also kindly included a tutorial on github configuration and the workflow code file corresponding to the <strong><code>Action</code></strong>. So, basically, all I need is to deal with the configuration files.</p>
+<h3 id="Future-thoughts"><a href="#Future-thoughts" class="headerlink" title="Future thoughts"></a>Future thoughts</h3><p>For now, I basically finished building this personal site, but there is still a lot of room for improvement. I found that the framework has a huge flaw - that is, the support for multiple languages is not friendly. I have consulted a lot of information, but the results are not satisfied. The solution I found now is to create two separate Hexo sites and link them together. Fortunately <strong><code>github pages</code></strong> can do this.</p>
+<p>But it is annoying to execute the same command twice. In the future, I may build another github repo, merge the source files of the first two sites into one folder, and then write some scripts to simplify the operation process.</p>
+<img src="/2022/12/01/A-New-Start/screenshot.png" class="" width="500" title="Something like this">]]></content>
   </entry>
   <entry>
-    <title>About</title>
+    <title>About Me</title>
     <url>/about/index.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="A-Little-Background"><a href="#A-Little-Background" class="headerlink" title="A Little Background"></a>A Little Background</h3><table>
+  <tr>
+    <td >Currently attending OSU as a senior in major of Computer Sience. I have worked in back-end development for two and half years prior to OSU. I am familiar with languages such as Java, Python, Javascript, etc., and have some knowledge of distributed systems. For now, I am interested in computer vision which a subfield of AI. For the detial could be found in my resume (<a href="/pdfs/Jingming_Resume.pdf">click to download</a>).</td>
+    <td><img src="Jiuzhaigou.jpg"></img></td>
+  </tr>
+</table> 
+
+
+
+<h3 id="Ongoing-Projects"><a href="#Ongoing-Projects" class="headerlink" title="Ongoing Projects"></a>Ongoing Projects</h3><ul>
+<li><a href="https://github.com/responsible-ai-collaborative/aiid">Artificial Intelligence Incident Database (AIID)</a><br>  <em>The codebase was extended to support the construction of the deepfake website based on the original AIID project. Currently, I am responsible for the back-end development of the extensions, which include the hosting of video and image media files, indexing of deepfake data, design and storage of video data structures, etc.</em></li>
+</ul>
+<h3 id="Past-Projects"><a href="#Past-Projects" class="headerlink" title="Past Projects"></a>Past Projects</h3><ul>
+<li><p><a href="">Meeting Reservation</a><br>  <em>Design the UI of the software and the implementation of the related components. Record the meeting data content and implement the back-end meeting management, etc.</em></p>
+</li>
+<li><p><a href="">YunSu Website 2.0</a><br>  <em>Refactoring the 1.0 backend management system using a distributed system. My work was designed to include data migration, data structure expansion for new requirements, and implementation of backend related functions</em></p>
+</li>
+</ul>
+]]></content>
   </entry>
 </search>
